@@ -19,7 +19,7 @@ credentials_path = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
 
 if credentials_path is None:
     # Use a hardcoded path if the environment variable is not set
-    credentials_path = "C:\\Users\\asus\\Downloads\\saathi-439108-2866ecb350dc.json"
+    credentials_path = "saathi-439108-2866ecb350dc.json"
 
 print("GOOGLE_APPLICATION_CREDENTIALS:", credentials_path)  # Debug print
 
